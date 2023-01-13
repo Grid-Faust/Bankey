@@ -56,7 +56,7 @@ extension PasswordTextField {
         errorLabel.text = "Your password must the requirements below."
         errorLabel.numberOfLines = 0
         errorLabel.lineBreakMode = .byWordWrapping
-        errorLabel.isHidden = true
+        errorLabel.isHidden = false
     }
     
     func layout() {
